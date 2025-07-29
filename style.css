@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+#nav-input {
+  width: 900px;
+  border-radius: 8px;
+}
+
+#nav-link {
+  color: #fff;
+  font-weight: 500;
+  margin-left: 10px;
+}
+
+#nav-link:hover {
+  text-decoration: underline;
+}
+
+#nav-btn {
+  border-radius: 10px;
+  font-weight: 700;
+}
+
+#captions {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  color: white;
+  text-align: center;
+  width: 100%;
+  padding: 0 15px;
+}
+
+#captions h1 {
+  font-size: 60px;
+  font-weight: 700;
+}
+
+#captions p {
+  font-size: 20px;
+  margin: 20px 0;
+}
+
+#captions a {
+  padding: 10px 30px;
+  border-radius: 0px;
+  font-weight: 600;
+  color: #000;
+}
+
+#swipe {
+  position: absolute;
+  bottom: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  text-align: center;
+  width: 100%;
+  font-size: 16px;
+  z-index: 10;
+}
+
+#footer {
+  background-color: #000;
+  color: #ccc;
+  padding: 20px;
+  text-align: center;
+  font-size: 14px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+#footer a {
+  color: #ccc;
+  text-decoration: none;
+  margin: 5px;
+}
+
+#footer a:hover {
+  text-decoration: underline;
+}
+
+#footdiv {
+  width: 100%;
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+#footdiv i {
+  margin: 0 10px;
+  color: #ccc;
+  cursor: pointer;
+}
+
+#footdiv i:hover {
+  color: #fff;
+}
